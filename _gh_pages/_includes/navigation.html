@@ -1,0 +1,104 @@
+<style type="text/css">
+#main-nav {
+	margin: 0px -5px;
+}
+
+.navbar-header {
+	text-align: center;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.navbar-brand {
+	font-size: 2.6rem;
+}
+
+.navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+
+.navbar-nav>li {
+	float: none;
+	display: inline-block;
+}
+
+a.fb-icon {
+	margin-right: -25px !important;
+	margin-left: -15px !important;
+}
+
+@media screen and (max-width: 767px) and (min-width: 1px) {
+	.navbar-header {
+		padding: 10px;
+	}
+	.navbar-brand {
+		font-size: 1.8rem;
+	}
+	.navbar-nav>li {
+		display: block;
+		text-align: left !important;
+	}
+	a.fb-icon {
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+		font-size: 2rem;
+	}
+}
+</style>
+<div>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container-fluid max-1080">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button data-target="#main-nav" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				<a href="{{ site.baseurl }}/" class="navbar-brand">
+					<!--<img src="{{ site.baseurl }}/assets/css/images/wordmark-alt-w.svg" alt="Mineral Point Opera house" title="Mineral Point Opera house" width="100%" />-->
+					<span class="tk-hwt-american-shopworn" itemscope="itemscope" itemtype="http://schema.org/Organization">
+						<span itemprop="name">Mineral Point Opera House</span>
+					</span>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+			<div class="collapse navbar-collapse" id="main-nav">
+				<ul class="nav navbar-nav">
+					<!--<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
+						<ul class="dropdown-menu dropdown-menu-left dropdown-inverse" role="menu">
+							<li><a href="{{ site.baseurl }}/">LINK</a></li>
+							<li><a href="{{ site.baseurl }}/">LINK</a></li>
+							<li><a href="{{ site.baseurl }}/">LINK</a></li>
+						</ul>
+					</li>-->
+				</ul>
+				<ul class="nav navbar-nav navbar-right tk-rift-bold">
+					<li itemprop="name">
+						<a itemprop="url" href="{{ site.baseurl }}/events/">Events</a>
+					</li>
+					<li itemprop="name">
+						<a itemprop="url" href="{{ site.baseurl }}/about/">About Us</a>
+					</li>
+					<li itemprop="name">
+						<a itemprop="url" href="{{ site.baseurl }}/contact/">Contact Us</a>
+					</li>
+					<li itemprop="name">
+						<a itemprop="url" href="{{ site.baseurl }}/performers/">Performers</a>
+					</li>
+					<li itemprop="name">
+						<a itemprop="url" href="https://www.facebook.com/Mineral-Point-Opera-House-134905419411/" target="_blank" class="fb-icon">
+							<i class="fa fa-facebook-square" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li itemprop="name">
+						<a itemprop="url" href="http://www.brownpapertickets.com/" target="_blank">
+							<span style="color: #cc9900 !important;">
+								<i class="fa fa-ticket" aria-hidden="true" style="margin-right: -5px;"></i> Get Tickets
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+</div>
