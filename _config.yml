@@ -30,9 +30,8 @@ author:
 image: /assets/css/images/
 
 #SEO
-seo:
- type: Organization
- 
+type: Organization
+
 #Logo
 logo: /assets/css/images/
 
