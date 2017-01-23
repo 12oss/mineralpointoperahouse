@@ -4,7 +4,7 @@ seo:
  type: Organization
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="wf-loading">
 <head>
 	{% seo %}
 <!--	<title>{{ page.title }}</title>
@@ -12,6 +12,10 @@ seo:
 	<meta name="description" content="{{ page.description }}">{% endif %} -->
 	{% include header.html %}
 	<style>
+	.wf-loading{
+		opacity: 0;
+		transition: all 0.5s ease;
+	}
 	@font-face {
 		font-family: 'FontAwesome';
 		src: url('{{ site.baseurl }}/dist/css/fonts/fontawesome-webfont.eot');
